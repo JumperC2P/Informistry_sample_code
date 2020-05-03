@@ -68,7 +68,7 @@ public class Server {
                 }catch (NoSuchElementException ne) {
                 	System.out.println("Client quits the game.");
                 }
-            }
+            }   
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
